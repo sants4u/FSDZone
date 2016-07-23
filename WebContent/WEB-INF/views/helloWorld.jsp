@@ -6,7 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<jsp:include page="navmenu.jsp"></jsp:include>
 <body>
-	${message}
+	<div class="container">
+		${message}
+	</div>
 </body>
 </html>

@@ -57,6 +57,22 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
+		<!-- Jersey -->
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-server -->
+		<dependency>
+		    <groupId>com.sun.jersey</groupId>
+		    <artifactId>jersey-server</artifactId>
+		    <version>1.19.1</version>
+		</dependency>
+		
+		<!-- Apache Commons -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.0</version>
+		</dependency>
 
 		<!-- JPA/Hibernate -->
 		<dependency>
