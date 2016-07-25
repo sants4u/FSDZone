@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HelloWorld {
 
-	@RequestMapping("/helloWorld")
+	@RequestMapping("/helloworld")
     public String sayHello(Model model) {
         model.addAttribute("message", "Hello World!");
         return "helloWorld";

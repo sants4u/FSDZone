@@ -15,6 +15,9 @@
 	
 	<mvc:annotation-driven/>
 	
+	<mvc:resources mapping="/angular/**" location="/angular/" />
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+	
 	<!-- Spring view name resolution : prefix + view name + suffix -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
